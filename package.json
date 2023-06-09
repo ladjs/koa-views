@@ -1,5 +1,5 @@
 {
-  "name": "koa-views",
+  "name": "@ladjs/koa-views",
   "version": "8.0.0",
   "description": "Template rendering middleware for koa",
   "main": "src/index.js",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/queckezz/koa-views"
+    "url": "https://github.com/ladjs/koa-views"
   },
   "keywords": [
     "koa",
@@ -62,6 +62,6 @@
   "author": "queckezz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/queckezz/koa-views/issues"
+    "url": "https://github.com/ladjs/koa-views/issues"
   }
 }

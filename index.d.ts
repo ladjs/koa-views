@@ -1,7 +1,7 @@
 /* =================== USAGE ===================
 
     import * as Koa from 'koa';
-    import * as views from 'koa-views';
+    import * as views from '@ladjs/koa-views';
 
     const app = new Koa();
     const render = views(__dirname + '/views', {

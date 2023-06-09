@@ -1,6 +1,6 @@
-# koa-views
+# @ladjs/koa-views
 
-![koa-views](https://img.shields.io/github/workflow/status/queckezz/koa-views/koa-views?logo=github&style=flat-square)
+![@ladjs/koa-views](https://img.shields.io/github/workflow/status/ladjs/koa-views/koa-views?logo=github&style=flat-square)
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![Dependency Status][david-image]][david-url]
@@ -11,12 +11,12 @@ Template rendering middleware for `koa@2`.
 ## Installation
 
 ```sh
-npm install koa-views
+npm install @ladjs/koa-views
 ```
 
 ## Templating engines
 
-`koa-views` is using [@ladjs/consolidate](https://github.com/ladjs/consolidate) under the hood.
+`@ladjs/koa-views` is using [@ladjs/consolidate](https://github.com/ladjs/consolidate) under the hood.
 
 [List of supported engines](https://github.com/ladjs/consolidate#engines)
 
@@ -25,7 +25,7 @@ npm install koa-views
 ## Example
 
 ```js
-var views = require('koa-views');
+var views = require('@ladjs/koa-views');
 
 const render = views(__dirname + '/views', {
   map: {
@@ -182,20 +182,20 @@ const app = new Koa()
 
 ## Debug
 
-Set the `DEBUG` environment variable to `koa-views` when starting your server.
+Set the `DEBUG` environment variable to `@ladjs/koa-views` when starting your server.
 
 ```bash
-$ DEBUG=koa-views
+$ DEBUG=@ladjs/koa-views
 ```
 
 ## License
 
 [MIT](./license)
 
-[npm-image]: https://img.shields.io/npm/v/koa-views.svg?style=flat-square
-[npm-downloads-image]: https://img.shields.io/npm/dm/koa-views.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/koa-views
-[david-image]: http://img.shields.io/david/queckezz/koa-views.svg?style=flat-square
-[david-url]: https://david-dm.org/queckezz/koa-views
+[npm-image]: https://img.shields.io/npm/v/@ladjs/koa-views.svg?style=flat-square
+[npm-downloads-image]: https://img.shields.io/npm/dm/@ladjs/koa-views.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@ladjs/koa-views
+[david-image]: http://img.shields.io/david/ladjs/koa-views.svg?style=flat-square
+[david-url]: https://david-dm.org/@ladjs/koa-views
 [license-image]: http://img.shields.io/npm/l/koa-views.svg?style=flat-square
 [license-url]: ./license
