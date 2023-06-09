@@ -1,7 +1,7 @@
 'use strict'
 
 const debug = require('debug')('koa-views')
-const consolidate = require('consolidate')
+const consolidate = require('@ladjs/consolidate')
 const send = require('koa-send')
 const getPaths = require('get-paths')
 const pretty = require('pretty')

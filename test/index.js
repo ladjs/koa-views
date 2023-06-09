@@ -283,7 +283,7 @@ describe('koa-views', () => {
       .expect(200, done)
   })
 
-  it('it should use an engineSource other than consolidate when provided', done => {
+  it('it should use an engineSource other than @ladjs/consolidate when provided', done => {
     const app = new Koa()
       .use(
         views(__dirname, {

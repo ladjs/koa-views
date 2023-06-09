@@ -16,9 +16,9 @@ npm install koa-views
 
 ## Templating engines
 
-`koa-views` is using [consolidate](https://github.com/tj/consolidate.js) under the hood.
+`koa-views` is using [@ladjs/consolidate](https://github.com/ladjs/consolidate) under the hood.
 
-[List of supported engines](https://github.com/tj/consolidate.js#supported-template-engines)
+[List of supported engines](https://github.com/ladjs/consolidate#engines)
 
 **NOTE**: you must still install the engines you wish to use, add them to your package.json dependencies.
 
@@ -140,9 +140,9 @@ app.use(async function (ctx) {
 })
 ```
 
-* `opts.engineSource`: replace consolidate as default engine source
+* `opts.engineSource`: replace `@ladjs/consolidate` as default engine source
 
-If you’re not happy with consolidate or want more control over the engines, you can override it with this options. `engineSource` should
+If you’re not happy with `@ladjs/consolidate` or want more control over the engines, you can override it with this options. `engineSource` should
 be an object that maps an extension to a function that receives a path and options and returns a promise. In this example templates with the `foo` extension will always return `bar`.
 
 ```js
