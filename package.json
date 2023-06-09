@@ -1,14 +1,11 @@
 {
   "name": "@ladjs/koa-views",
-  "version": "8.0.0",
   "description": "Template rendering middleware for koa",
-  "main": "src/index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "lint": "eslint .",
-    "test": "mocha --reporter dot --bail --exit"
+  "version": "8.0.0",
+  "author": "queckezz",
+  "bugs": {
+    "url": "https://github.com/ladjs/koa-views/issues"
   },
-  "precommit": "lint, test",
   "dependencies": {
     "@ladjs/consolidate": "^1.0.1",
     "debug": "^4.3.4",
@@ -39,6 +36,16 @@
     "tape": "^5.6.3",
     "underscore": "^1.13.6"
   },
+  "keywords": [
+    "app-wide",
+    "koa",
+    "render",
+    "templates",
+    "templating",
+    "views"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
   "peerDependencies": {
     "@types/koa": "^2.13.1"
   },
@@ -47,21 +54,17 @@
       "optional": true
     }
   },
+  "precommit": "lint, test",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ladjs/koa-views"
   },
-  "keywords": [
-    "koa",
-    "render",
-    "views",
-    "app-wide",
-    "templating",
-    "templates"
-  ],
-  "author": "queckezz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ladjs/koa-views/issues"
-  }
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --reporter dot --bail --exit"
+  },
+  "types": "index.d.ts"
 }
