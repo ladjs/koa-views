@@ -1,7 +1,7 @@
 {
   "name": "@ladjs/koa-views",
   "description": "Template rendering middleware for koa",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "author": "queckezz",
   "bugs": {
     "url": "https://github.com/ladjs/koa-views/issues"
